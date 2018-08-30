@@ -1,22 +1,42 @@
 import React from 'react'
+import {HashRouter as Router, Route} from 'react-router-dom'
 // import {HashRouter as Router, Route} from 'react-router-dom'
 
 //component imports
+import Emoji from './Emoji.jsx'
+import Footer from './Footer.jsx'
 
 
 
 const App = () => {
   return (
-    
+    <Router>
        <div className='app'>
        <h1>The App is showing</h1>
-       
-       
+
+       <div>
+         <Route path='/' component={Emoji} />
        </div>
-    
+      
+       <div>
+         <Route path='/' component={Footer} />
+       </div>
+
+      
+       </div>
+       </Router>
   )
 }
 
+
+
+// const App = () => (
+//   <div className='container'>
+//     <img className='spinner' src='images/paw.png' />
+//     <Subtitle text='Canines using supercanine abilities for social good.' />
+//     {dogs.map(showDog)}
+//   </div>
+// )
 
 
 

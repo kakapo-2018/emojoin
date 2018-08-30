@@ -24,16 +24,6 @@ h2 {
   align-items: center;
 }
 
-.spinner {
-  margin-top: 5rem;
-  width: 5rem;
-  height: 5rem;
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
-  opacity: 0.5;
-}
-
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
@@ -87,8 +77,7 @@ h2 {
   margin: 0.5rem;
 }
 
-.emoji .emoji-superpower {
-  font-size: 1rem;
-  display: block;
-  margin: 0.5rem;
+.footer {
+  -webkit-column-count: 6; /* Chrome, Safari, Opera */
+  column-count: 6;
 }
