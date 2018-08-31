@@ -60,7 +60,7 @@ handleClick (e) {
 
       <div className='app'>
   
-      <img src='images/title.svg'/>
+      <center><img height='200px' src='images/title.svg'/></center>
       
       
       <div>
@@ -72,7 +72,7 @@ handleClick (e) {
       <Footer handleClick={this.handleClick}/>
       </div>
       
-      <button onClick= {this.reset}>reset</button>
+      <center><button onClick= {this.reset}>reset</button></center>
       </div>
       
     )
