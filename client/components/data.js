@@ -1,4 +1,4 @@
-Emoji = {
+const Emoji = {
   Nails : { Nails : 'Nails-Nails', 
             Pig: 'Nails-Pig', 
             Laugh: 'Nails-Laugh',
@@ -20,7 +20,7 @@ Emoji = {
             Laugh: 'Laugh-Laugh',
             Taco: 'Laugh-Taco',
             EggPlant: 'Laugh-Taco',
-            Globe: 'Laugh-globe'
+            Globe: 'Laugh-Globe'
           },
 
   Taco:  { Nails: 'Taco-Nails',
@@ -31,9 +31,9 @@ Emoji = {
               Globe: 'Taco-Globe'
             },
             
-  EggPlant: { Nails: 'EggPLant-Nails',
+  EggPlant: { Nails: 'EggPlant-Nails',
               Pig: 'EggPlant-Pig',
-              Laugh: 'EggPlant-Laugh',
+              Laugh: 'EggPlant-Laugh wowowowowowo',
               Taco: 'EggPlant-Taco',
               Eggplant: 'EggPlant-EggPlant',
               Globe: 'EggPlant-Globe'
@@ -46,3 +46,5 @@ Emoji = {
             Globe: 'Globe-Globe'
           }          
 }
+
+export default Emoji

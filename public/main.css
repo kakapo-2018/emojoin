@@ -5,6 +5,7 @@
  */
 
 body {
+  background-color: #fff34f;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -12,6 +13,21 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
+.venndiagram {
+  background-image: url('images/background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+
+.venndiagram img {
+  width: 25%;
+  padding: 
+
+  
+}
 h2 {
   opacity: 0.8;
   color: #598234;
