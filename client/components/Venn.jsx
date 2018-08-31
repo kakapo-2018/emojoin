@@ -10,7 +10,7 @@ const Venn = (props) => {
         {props.image[1] &&<img src={`images/${props.image[1]}.svg` }/>}
        
     </div>
-        <h1>{props.name} &nbsp;</h1>
+        <h1><b>{props.name} &nbsp;</b></h1>
         </React.Fragment>
   )
 }

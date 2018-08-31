@@ -19680,8 +19680,12 @@ var Venn = function Venn(props) {
     _react2.default.createElement(
       'h1',
       null,
-      props.name,
-      ' \xA0'
+      _react2.default.createElement(
+        'b',
+        null,
+        props.name,
+        ' \xA0'
+      )
     )
   );
 };
@@ -19755,11 +19759,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 var Emoji = {
           Nails: { Nails: 'Nails + Nails = Nailed It',
-                    Pig: 'Nails + Pig = Nails/Pig',
+                    Pig: 'Nails + Pig = Miss Piggy',
                     Laugh: 'Nails + Laugh = Tickles',
                     Taco: 'Nails + Taco = I’ve just nailed a joke about tortillas; actually, it’s more of a rap.',
-                    Eggplant: 'Nails + Eggplant = Nails/Eggplant',
-                    Globe: 'Nails + Globe = Nails/Globe'
+                    EggPlant: 'Nails + Eggplant = Purple Nails',
+                    Globe: 'Nails + Globe = Jetset Nailtech'
           },
 
           Pig: { Nails: 'Pig + Nails = Miss Piggy',
@@ -19786,7 +19790,7 @@ var Emoji = {
                     Globe: 'Taco + Globe = Global Warming due to Flatulence'
           },
 
-          EggPlant: { Nails: 'EggPlant + Nails = Eggplant/Nails',
+          EggPlant: { Nails: 'EggPlant + Nails = Purple Nails',
                     Pig: 'EggPlant + Pig = Patriarchy',
                     Laugh: 'EggPlant + Laugh = When You Receive An "Aubergine" Pic',
                     Taco: 'EggPlant + Taco = Bow Chicka Wow Wow',
@@ -19794,7 +19798,7 @@ var Emoji = {
                     Globe: 'EggPlant + Globe = Osama/Kim/Adolf'
           },
 
-          Globe: { Nails: 'Globe + Nails = Globe/Nails',
+          Globe: { Nails: 'Globe + Nails = Jetset Nailtech',
                     Pig: 'Globe + Pig = Planet of the Pigs',
                     Laugh: 'Globe + Laugh = "At Google Earth, we can read maps backwards..." well that\'s just spam',
                     Taco: 'Globe + Taco = There\'s only Juan',
