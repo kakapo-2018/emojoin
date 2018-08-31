@@ -1,25 +1,25 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <div className='footer'>
       <div>
-      <img src='images/aubergine.svg' /> 
+      <input onClick={props.handleClick} type='image' src='images/aubergine.svg' class='button' name='EggPlant'/>
       </div>
       <div>
-      <img src='images/laughing.svg' />
+      <input onClick={props.handleClick} type='image' src='images/laughing.svg' class='button'name='Laugh'/>
       </div>
       <div>
-      <img src='images/nail-polish.svg' />
+      <input onClick={props.handleClick} type='image' src='images/nail-polish.svg' class='button' name='Nails'/>
       </div>
       <div>
-      <img src='images/pig.svg' />
+      <input onClick={props.handleClick} type='image' src='images/pig.svg' class='button'name='Pig'/>
       </div>
       <div>
-      <img src='images/planet-earth.svg' />
+      <input onClick={props.handleClick} type='image' src='images/planet-earth.svg' class='button' name='Globe'/>
       </div>
       <div>
-      <img src='images/taco.svg' />
+      <input onClick={props.handleClick} type='image' src='images/taco.svg' class='button' name='Taco'/>
       </div>
     </div>
      

@@ -53,10 +53,10 @@ h2 {
   padding: 0.5rem;
 }
 
-.emoji-wrapper .emoji-pic .emoji-img {
+/* .emoji-wrapper .emoji-pic .emoji-img {
   width: 4rem;
   height: 4rem;
-}
+} */
 
 .emoji .emoji-name-plate {
   display: flex;

@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Emoji = props => {
+const Emoji = () => {
   return (
     <div className='Emoji-wrapper'>
-      <h1>Single emoji title</h1>
-      <g>
+      <h1>Emoji component here, need to call on click</h1>
+      {/* <g>
         <img src='images/pig.svg' />
-        </g>
+        </g> */}
       </div>
   )
 }
